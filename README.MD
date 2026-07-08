@@ -4,6 +4,7 @@
 
 This is a terminal-only User Interface made using Textual for a future project for a Raspberry Pi Phone.
 
+<hr>
 *How to use*
 
 1. Clone the repository.
@@ -35,9 +36,12 @@ This is a terminal-only User Interface made using Textual for a future project f
     pip install -r requirements.txt
     ```
 
-13. Run the program.
+3. Run the program.
 `python main.py`
 
+By the way, if the icons are displaying as blank squares, you're gonna need to install and set your terminal font to Nerd Fonts.
+
+<hr>
 *Explanation*
 
 I'm currently planning to make a phone using a Raspberry Pi Zero W. Since the SBC isn't powerful (at all), I'll be using this terminal-only UI instead of a heavy Desktop Environment.
