@@ -35,8 +35,10 @@ This is a terminal-only User Interface made using Textual for a future project f
     pip install -r requirements.txt
     ```
 
-13. Run the program.
+3. Run the program.
 `python main.py`
+
+By the way, if the icons are displaying as blank squares, you're gonna need to install and set your terminal font to Nerd Fonts.
 
 *Explanation*
 
