@@ -1,0 +1,12 @@
+Screen {
+    align: center top;
+}
+
+Horizontal {
+    width: auto;
+    height: auto;
+}
+
+Button{
+    margin: 1 1;
+}
