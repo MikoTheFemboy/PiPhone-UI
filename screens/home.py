@@ -1,3 +1,6 @@
+import subprocess
+import os
+
 from textual.screen import Screen
 from textual.app import ComposeResult
 from textual.containers import Vertical, Horizontal
@@ -46,10 +49,11 @@ class HomeScreen(Screen):
 
             with Horizontal():
                 yield Button("", id="button_message")
-                yield Button("", id="button_setting")
+                yield Button("", id="button_settings")
 
             # The exit button.
             with Horizontal():
+                yield Button("", id="button_notes")
                 yield Button("󰈆", id="button_exit", variant="error")
 
     def on_mount(self) -> None:
@@ -68,3 +72,20 @@ class HomeScreen(Screen):
         self.clock.update(time)
         self.date.update(date)
         self.day.update(day)
+
+    def on_button_pressed(self, event: Button.Pressed) -> None:
+        match event.button.id:
+            case "button_browser":
+                subprocess.run(["w3m", "https://duckduckgo.com/"])
+
+            case "button_console":
+                subprocess.run(["bash"])
+
+            case "button_settings":
+                self.app.push_screen("settings")
+
+            case "button_notes":
+                self.app.push_screen("notes")
+            
+            case "button_exit":
+                quit("See ya later!")
