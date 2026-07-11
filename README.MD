@@ -42,7 +42,7 @@ Instead of using a desktop environment, PiPhone UI provides a simple application
     cd PiPhone-UI
     ```
 
-2. Install dependencies:
+2. Install dependencies:<br>
     `pip install -r requirements.txt`<br>
     If that doesn't work, then you might need to create a virtual environment.
     `python -m venv .venv`<br>
