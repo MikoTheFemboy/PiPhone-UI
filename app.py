@@ -9,7 +9,7 @@ class PiPhone(App):
 
     BINDINGS= [
         ("q", "quit", "Quit"),
-        ("escape", "back", "Go Back")
+        #("escape", "back", "Go Back")
     ]
 
     def on_mount(self):
