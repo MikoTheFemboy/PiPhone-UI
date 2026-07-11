@@ -19,5 +19,5 @@ class PiPhone(App):
 
         self.push_screen("home")
 
-    def action_back(self):
-        self.app.pop_screen()
+    #def action_back(self):
+    #    self.app.pop_screen()
