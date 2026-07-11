@@ -30,7 +30,7 @@ Instead of using a desktop environment, PiPhone UI provides a simple application
 1. Git.
 2. Python 3.12+
 3. pip.
-4. Nerd Font (Required for the icons)
+4. Nerd Font (Required for the icons)<br>
 --non-essential, but you might need--
 5. w3m (text-based web browser. Change this in the code if you want to)
 
