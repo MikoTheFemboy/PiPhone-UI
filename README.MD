@@ -65,11 +65,11 @@ Instead of using a desktop environment, PiPhone UI provides a simple application
     pip install -r requirements.txt
     ```
 
-3. Run the program.
+3. Run the program.<br>
 `python main.py`
 <br>
 
-4. When you're done, deactivate the venv using:
+4. When you're done, deactivate the venv using:<br>
 `deactivate`
 
 <hr>
