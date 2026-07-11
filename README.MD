@@ -20,15 +20,19 @@ Instead of using a desktop environment, PiPhone UI provides a simple application
     6. Note taking ❌
 
 ## Todos 🗒️
-Make it actually work lmfao
+1. Implement Settings app.
+2. Implement Notes app.
+3. Implement WiFi management.
+4. Implement Messaging app (dreading this one)
+5. Actually make it work lmfao
 
 ## Requirements ❗
 1. Git.
 2. Python 3.12+
 3. pip.
 4. Nerd Font (Required for the icons)
-
-<hr>
+--non-essential, but you might need--
+5. w3m (text-based web browser. Change this in the code if you want to)
 
 ## Usage 💻
 
